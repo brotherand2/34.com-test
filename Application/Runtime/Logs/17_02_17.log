@@ -1,0 +1,33 @@
+[ 2017-02-17T18:57:05+08:00 ] 127.0.0.1 /34com/index.php?XDEBUG_SESSION_START=16906
+NOTIC: [8] Use of undefined constant MODULE_PATH - assumed 'MODULE_PATH' xdebug://debug-eval 第 1 行.
+NOTIC: [8] Use of undefined constant MODULE_PATH - assumed 'MODULE_PATH' xdebug://debug-eval 第 1 行.
+NOTIC: [8] Use of undefined constant MODULE_PATH - assumed 'MODULE_PATH' xdebug://debug-eval 第 1 行.
+NOTIC: [8] Use of undefined constant IS_AJAX - assumed 'IS_AJAX' xdebug://debug-eval 第 1 行.
+NOTIC: [8] Use of undefined constant IS_AJAX - assumed 'IS_AJAX' xdebug://debug-eval 第 1 行.
+NOTIC: [8] Undefined index: HTTP_X_REQUESTED_WITH xdebug://debug-eval 第 1 行.
+NOTIC: [8] Undefined index: HTTP_X_REQUESTED_WITH xdebug://debug-eval 第 1 行.
+NOTIC: [8] Undefined index: HTTP_X_REQUESTED_WITH xdebug://debug-eval 第 1 行.
+NOTIC: [8] Undefined index: HTTP_X_REQUESTED_WITH xdebug://debug-eval 第 1 行.
+NOTIC: [8] Undefined index: HTTP_X_REQUESTED_WITH xdebug://debug-eval 第 1 行.
+NOTIC: [8] Use of undefined constant CONTROLLER_NAME - assumed 'CONTROLLER_NAME' xdebug://debug-eval 第 1 行.
+NOTIC: [8] Use of undefined constant CONTROLLER_NAME - assumed 'CONTROLLER_NAME' xdebug://debug-eval 第 1 行.
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.009439s ]
+INFO: [ app_init ] --END-- [ RunTime:0.020872s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:286.698155s ]
+INFO: [ app_begin ] --END-- [ RunTime:286.698413s ]
+NOTIC: [8] Use of undefined constant 成功删除目录 - assumed '成功删除目录' xdebug://debug-eval 第 1 行.
+NOTIC: [8] Use of undefined constant yes - assumed 'yes' xdebug://debug-eval 第 29 行.
+NOTIC: [8] Use of undefined constant yes - assumed 'yes' xdebug://debug-eval 第 1 行.
+NOTIC: [8] Use of undefined constant yes - assumed 'yes' xdebug://debug-eval 第 29 行.
+NOTIC: [8] Use of undefined constant yes - assumed 'yes' xdebug://debug-eval 第 29 行.
+NOTIC: [8] Use of undefined constant yes - assumed 'yes' xdebug://debug-eval 第 29 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\code\34com\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `php34_goods` [ RunTime:0.034309s ]
+SQL: SELECT `id`,`goods_name`,`promote_price`,`sm_logo` FROM `php34_goods` WHERE ( `is_on_sale` = 1 ) AND ( `is_delete` = 0 ) AND ( `is_promote` = 1 ) AND ( `promote_start_time` <= 1487329024 ) AND ( `promote_end_time` >= 1487329024 ) ORDER BY sort_num ASC LIMIT 5   [ RunTime:0.000817s ]
+SQL: SELECT `id`,`goods_name`,`shop_price`,`sm_logo` FROM `php34_goods` WHERE ( `is_on_sale` = 1 ) AND ( `is_delete` = 0 ) AND ( `is_hot` = 1 ) ORDER BY sort_num ASC LIMIT 5   [ RunTime:0.000423s ]
+SQL: SELECT `id`,`goods_name`,`shop_price`,`sm_logo` FROM `php34_goods` WHERE ( `is_on_sale` = 1 ) AND ( `is_delete` = 0 ) AND ( `is_best` = 1 ) ORDER BY sort_num ASC LIMIT 5   [ RunTime:0.000356s ]
+SQL: SELECT `id`,`goods_name`,`shop_price`,`sm_logo` FROM `php34_goods` WHERE ( `is_on_sale` = 1 ) AND ( `is_delete` = 0 ) AND ( `is_new` = 1 ) ORDER BY sort_num ASC LIMIT 5   [ RunTime:0.000489s ]
+INFO: [ view_parse ] --START--
+

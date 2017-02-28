@@ -1,0 +1,308 @@
+[ 2017-02-16T00:07:22+08:00 ] 192.168.1.106 /34com/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002189s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000885s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001015s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\code\34com\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `php34_goods` [ RunTime:0.033724s ]
+SQL: SELECT `id`,`goods_name`,`promote_price`,`sm_logo` FROM `php34_goods` WHERE ( `is_on_sale` = 1 ) AND ( `is_delete` = 0 ) AND ( `is_promote` = 1 ) AND ( `promote_start_time` <= 1487174842 ) AND ( `promote_end_time` >= 1487174842 ) ORDER BY sort_num ASC LIMIT 5   [ RunTime:0.021098s ]
+SQL: SELECT `id`,`goods_name`,`shop_price`,`sm_logo` FROM `php34_goods` WHERE ( `is_on_sale` = 1 ) AND ( `is_delete` = 0 ) AND ( `is_hot` = 1 ) ORDER BY sort_num ASC LIMIT 5   [ RunTime:0.000654s ]
+SQL: SELECT `id`,`goods_name`,`shop_price`,`sm_logo` FROM `php34_goods` WHERE ( `is_on_sale` = 1 ) AND ( `is_delete` = 0 ) AND ( `is_best` = 1 ) ORDER BY sort_num ASC LIMIT 5   [ RunTime:0.000407s ]
+SQL: SELECT `id`,`goods_name`,`shop_price`,`sm_logo` FROM `php34_goods` WHERE ( `is_on_sale` = 1 ) AND ( `is_delete` = 0 ) AND ( `is_new` = 1 ) ORDER BY sort_num ASC LIMIT 5   [ RunTime:0.000402s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.011651s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.011829s ]
+SQL: SHOW COLUMNS FROM `php34_category` [ RunTime:0.013963s ]
+SQL: SELECT * FROM `php34_category`  [ RunTime:0.000914s ]
+NOTIC: [2] Invalid argument supplied for foreach() E:\code\34com\Application\Admin\Model\CategoryModel.class.php 第 76 行.
+NOTIC: [2] Invalid argument supplied for foreach() E:\code\34com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 350 行.
+NOTIC: [2] Invalid argument supplied for foreach() E:\code\34com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 366 行.
+NOTIC: [2] Invalid argument supplied for foreach() E:\code\34com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 382 行.
+NOTIC: [2] Invalid argument supplied for foreach() E:\code\34com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 398 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.247224s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.247330s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.026779s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.026920s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.021734s ]
+INFO: [ app_end ] --END-- [ RunTime:0.021867s ]
+
+[ 2017-02-16T00:07:24+08:00 ] 192.168.1.106 /34com/index.php/Home/Index/ajaxGetRecentDisGoods.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000700s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000607s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000874s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000689s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000822s ]
+
+[ 2017-02-16T00:07:24+08:00 ] 192.168.1.106 /34com/index.php/Home/Member/ajaxChkLogin.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000552s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000747s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000866s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000813s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000948s ]
+
+[ 2017-02-16T00:54:17+08:00 ] 192.168.1.106 /34com/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000635s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000833s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000956s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\code\34com\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `php34_goods` [ RunTime:0.023188s ]
+SQL: SELECT `id`,`goods_name`,`promote_price`,`sm_logo` FROM `php34_goods` WHERE ( `is_on_sale` = 1 ) AND ( `is_delete` = 0 ) AND ( `is_promote` = 1 ) AND ( `promote_start_time` <= 1487177657 ) AND ( `promote_end_time` >= 1487177657 ) ORDER BY sort_num ASC LIMIT 5   [ RunTime:0.000978s ]
+SQL: SELECT `id`,`goods_name`,`shop_price`,`sm_logo` FROM `php34_goods` WHERE ( `is_on_sale` = 1 ) AND ( `is_delete` = 0 ) AND ( `is_hot` = 1 ) ORDER BY sort_num ASC LIMIT 5   [ RunTime:0.000556s ]
+SQL: SELECT `id`,`goods_name`,`shop_price`,`sm_logo` FROM `php34_goods` WHERE ( `is_on_sale` = 1 ) AND ( `is_delete` = 0 ) AND ( `is_best` = 1 ) ORDER BY sort_num ASC LIMIT 5   [ RunTime:0.000544s ]
+SQL: SELECT `id`,`goods_name`,`shop_price`,`sm_logo` FROM `php34_goods` WHERE ( `is_on_sale` = 1 ) AND ( `is_delete` = 0 ) AND ( `is_new` = 1 ) ORDER BY sort_num ASC LIMIT 5   [ RunTime:0.001011s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000278s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000395s ]
+SQL: SHOW COLUMNS FROM `php34_category` [ RunTime:0.011446s ]
+SQL: SELECT * FROM `php34_category`  [ RunTime:0.000931s ]
+NOTIC: [2] Invalid argument supplied for foreach() E:\code\34com\Application\Admin\Model\CategoryModel.class.php 第 76 行.
+NOTIC: [2] Invalid argument supplied for foreach() E:\code\34com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 350 行.
+NOTIC: [2] Invalid argument supplied for foreach() E:\code\34com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 366 行.
+NOTIC: [2] Invalid argument supplied for foreach() E:\code\34com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 382 行.
+NOTIC: [2] Invalid argument supplied for foreach() E:\code\34com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 398 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.051088s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.051195s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000646s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000743s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000775s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000876s ]
+
+[ 2017-02-16T00:54:17+08:00 ] 192.168.1.106 /34com/index.php/Home/Index/ajaxGetRecentDisGoods.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000514s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000410s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000506s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000392s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000481s ]
+
+[ 2017-02-16T00:54:17+08:00 ] 192.168.1.106 /34com/index.php/Home/Member/ajaxChkLogin.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000430s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000396s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000481s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000428s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000518s ]
+
+[ 2017-02-16T01:09:41+08:00 ] 192.168.1.106 /34com/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000047s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000987s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001125s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001428s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\code\34com\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `php34_goods` [ RunTime:0.011321s ]
+SQL: SELECT `id`,`goods_name`,`promote_price`,`sm_logo` FROM `php34_goods` WHERE ( `is_on_sale` = 1 ) AND ( `is_delete` = 0 ) AND ( `is_promote` = 1 ) AND ( `promote_start_time` <= 1487178581 ) AND ( `promote_end_time` >= 1487178581 ) ORDER BY sort_num ASC LIMIT 5   [ RunTime:0.000285s ]
+SQL: SELECT `id`,`goods_name`,`shop_price`,`sm_logo` FROM `php34_goods` WHERE ( `is_on_sale` = 1 ) AND ( `is_delete` = 0 ) AND ( `is_hot` = 1 ) ORDER BY sort_num ASC LIMIT 5   [ RunTime:0.000260s ]
+SQL: SELECT `id`,`goods_name`,`shop_price`,`sm_logo` FROM `php34_goods` WHERE ( `is_on_sale` = 1 ) AND ( `is_delete` = 0 ) AND ( `is_best` = 1 ) ORDER BY sort_num ASC LIMIT 5   [ RunTime:0.000179s ]
+SQL: SELECT `id`,`goods_name`,`shop_price`,`sm_logo` FROM `php34_goods` WHERE ( `is_on_sale` = 1 ) AND ( `is_delete` = 0 ) AND ( `is_new` = 1 ) ORDER BY sort_num ASC LIMIT 5   [ RunTime:0.000512s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000192s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000301s ]
+SQL: SHOW COLUMNS FROM `php34_category` [ RunTime:0.010519s ]
+SQL: SELECT * FROM `php34_category`  [ RunTime:0.000193s ]
+NOTIC: [2] Invalid argument supplied for foreach() E:\code\34com\Application\Admin\Model\CategoryModel.class.php 第 76 行.
+NOTIC: [2] Invalid argument supplied for foreach() E:\code\34com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 350 行.
+NOTIC: [2] Invalid argument supplied for foreach() E:\code\34com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 366 行.
+NOTIC: [2] Invalid argument supplied for foreach() E:\code\34com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 382 行.
+NOTIC: [2] Invalid argument supplied for foreach() E:\code\34com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 398 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.192495s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.192643s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000629s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000757s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000604s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000720s ]
+
+[ 2017-02-16T01:10:06+08:00 ] 192.168.1.106 /34com/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000055s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000917s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000667s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001066s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\code\34com\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `php34_goods` [ RunTime:0.011983s ]
+SQL: SELECT `id`,`goods_name`,`promote_price`,`sm_logo` FROM `php34_goods` WHERE ( `is_on_sale` = 1 ) AND ( `is_delete` = 0 ) AND ( `is_promote` = 1 ) AND ( `promote_start_time` <= 1487178606 ) AND ( `promote_end_time` >= 1487178606 ) ORDER BY sort_num ASC LIMIT 5   [ RunTime:0.000327s ]
+SQL: SELECT `id`,`goods_name`,`shop_price`,`sm_logo` FROM `php34_goods` WHERE ( `is_on_sale` = 1 ) AND ( `is_delete` = 0 ) AND ( `is_hot` = 1 ) ORDER BY sort_num ASC LIMIT 5   [ RunTime:0.000182s ]
+SQL: SELECT `id`,`goods_name`,`shop_price`,`sm_logo` FROM `php34_goods` WHERE ( `is_on_sale` = 1 ) AND ( `is_delete` = 0 ) AND ( `is_best` = 1 ) ORDER BY sort_num ASC LIMIT 5   [ RunTime:0.000177s ]
+SQL: SELECT `id`,`goods_name`,`shop_price`,`sm_logo` FROM `php34_goods` WHERE ( `is_on_sale` = 1 ) AND ( `is_delete` = 0 ) AND ( `is_new` = 1 ) ORDER BY sort_num ASC LIMIT 5   [ RunTime:0.000155s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000392s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000866s ]
+SQL: SHOW COLUMNS FROM `php34_category` [ RunTime:0.010724s ]
+SQL: SELECT * FROM `php34_category`  [ RunTime:0.000200s ]
+NOTIC: [2] Invalid argument supplied for foreach() E:\code\34com\Application\Admin\Model\CategoryModel.class.php 第 76 行.
+NOTIC: [2] Invalid argument supplied for foreach() E:\code\34com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 350 行.
+NOTIC: [2] Invalid argument supplied for foreach() E:\code\34com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 366 行.
+NOTIC: [2] Invalid argument supplied for foreach() E:\code\34com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 382 行.
+NOTIC: [2] Invalid argument supplied for foreach() E:\code\34com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 398 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.037046s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.037209s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000429s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000526s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000495s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000625s ]
+
+[ 2017-02-16T01:10:08+08:00 ] 192.168.1.106 /34com/index.php/Home/Index/ajaxGetRecentDisGoods.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000389s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000431s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000523s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000392s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000518s ]
+
+[ 2017-02-16T01:10:08+08:00 ] 192.168.1.106 /34com/index.php/Home/Member/ajaxChkLogin.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000465s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000519s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000613s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000495s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000585s ]
+
+[ 2017-02-16T01:12:39+08:00 ] 192.168.1.102 /34com/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000524s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000584s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000743s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\code\34com\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `php34_goods` [ RunTime:0.011652s ]
+SQL: SELECT `id`,`goods_name`,`promote_price`,`sm_logo` FROM `php34_goods` WHERE ( `is_on_sale` = 1 ) AND ( `is_delete` = 0 ) AND ( `is_promote` = 1 ) AND ( `promote_start_time` <= 1487178759 ) AND ( `promote_end_time` >= 1487178759 ) ORDER BY sort_num ASC LIMIT 5   [ RunTime:0.000814s ]
+SQL: SELECT `id`,`goods_name`,`shop_price`,`sm_logo` FROM `php34_goods` WHERE ( `is_on_sale` = 1 ) AND ( `is_delete` = 0 ) AND ( `is_hot` = 1 ) ORDER BY sort_num ASC LIMIT 5   [ RunTime:0.000559s ]
+SQL: SELECT `id`,`goods_name`,`shop_price`,`sm_logo` FROM `php34_goods` WHERE ( `is_on_sale` = 1 ) AND ( `is_delete` = 0 ) AND ( `is_best` = 1 ) ORDER BY sort_num ASC LIMIT 5   [ RunTime:0.000555s ]
+SQL: SELECT `id`,`goods_name`,`shop_price`,`sm_logo` FROM `php34_goods` WHERE ( `is_on_sale` = 1 ) AND ( `is_delete` = 0 ) AND ( `is_new` = 1 ) ORDER BY sort_num ASC LIMIT 5   [ RunTime:0.000547s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000193s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000304s ]
+SQL: SHOW COLUMNS FROM `php34_category` [ RunTime:0.010118s ]
+SQL: SELECT * FROM `php34_category`  [ RunTime:0.000972s ]
+NOTIC: [2] Invalid argument supplied for foreach() E:\code\34com\Application\Admin\Model\CategoryModel.class.php 第 76 行.
+NOTIC: [2] Invalid argument supplied for foreach() E:\code\34com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 350 行.
+NOTIC: [2] Invalid argument supplied for foreach() E:\code\34com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 366 行.
+NOTIC: [2] Invalid argument supplied for foreach() E:\code\34com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 382 行.
+NOTIC: [2] Invalid argument supplied for foreach() E:\code\34com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 398 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.032305s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.032476s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000532s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000667s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000653s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000818s ]
+
+[ 2017-02-16T01:12:39+08:00 ] 192.168.1.102 /34com/index.php/Home/Index/ajaxGetRecentDisGoods.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000045s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000736s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000824s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001011s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000741s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000915s ]
+
+[ 2017-02-16T01:12:39+08:00 ] 192.168.1.102 /34com/index.php/Home/Member/ajaxChkLogin.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000793s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000839s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001065s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000892s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001069s ]
+
+[ 2017-02-16T01:27:37+08:00 ] 192.168.1.102 /34com/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000575s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000681s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000838s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\code\34com\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `php34_goods` [ RunTime:0.011922s ]
+SQL: SELECT `id`,`goods_name`,`promote_price`,`sm_logo` FROM `php34_goods` WHERE ( `is_on_sale` = 1 ) AND ( `is_delete` = 0 ) AND ( `is_promote` = 1 ) AND ( `promote_start_time` <= 1487179657 ) AND ( `promote_end_time` >= 1487179657 ) ORDER BY sort_num ASC LIMIT 5   [ RunTime:0.000417s ]
+SQL: SELECT `id`,`goods_name`,`shop_price`,`sm_logo` FROM `php34_goods` WHERE ( `is_on_sale` = 1 ) AND ( `is_delete` = 0 ) AND ( `is_hot` = 1 ) ORDER BY sort_num ASC LIMIT 5   [ RunTime:0.000293s ]
+SQL: SELECT `id`,`goods_name`,`shop_price`,`sm_logo` FROM `php34_goods` WHERE ( `is_on_sale` = 1 ) AND ( `is_delete` = 0 ) AND ( `is_best` = 1 ) ORDER BY sort_num ASC LIMIT 5   [ RunTime:0.000252s ]
+SQL: SELECT `id`,`goods_name`,`shop_price`,`sm_logo` FROM `php34_goods` WHERE ( `is_on_sale` = 1 ) AND ( `is_delete` = 0 ) AND ( `is_new` = 1 ) ORDER BY sort_num ASC LIMIT 5   [ RunTime:0.000253s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000273s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000434s ]
+SQL: SHOW COLUMNS FROM `php34_category` [ RunTime:0.011196s ]
+SQL: SELECT * FROM `php34_category`  [ RunTime:0.000348s ]
+NOTIC: [2] Invalid argument supplied for foreach() E:\code\34com\Application\Admin\Model\CategoryModel.class.php 第 76 行.
+NOTIC: [2] Invalid argument supplied for foreach() E:\code\34com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 350 行.
+NOTIC: [2] Invalid argument supplied for foreach() E:\code\34com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 366 行.
+NOTIC: [2] Invalid argument supplied for foreach() E:\code\34com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 382 行.
+NOTIC: [2] Invalid argument supplied for foreach() E:\code\34com\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 398 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.033244s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.033388s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000431s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000525s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000666s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000817s ]
+
+[ 2017-02-16T01:27:38+08:00 ] 192.168.1.102 /34com/index.php/Home/Index/ajaxGetRecentDisGoods.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000576s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000813s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000944s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000632s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000745s ]
+
+[ 2017-02-16T01:27:38+08:00 ] 192.168.1.102 /34com/index.php/Home/Member/ajaxChkLogin.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000049s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000820s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000838s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001031s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000728s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000881s ]
+
